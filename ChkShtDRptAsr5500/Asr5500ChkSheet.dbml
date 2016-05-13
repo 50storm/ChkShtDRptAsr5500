@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dev" Class="Asr5500ChkSheetDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=AWS-IG-PC\SQLEXPRESS;Initial Catalog=dev;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="devConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.asr5500_chksheets" Member="asr5500_chksheets">
+    <Type Name="asr5500_chksheets">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="no1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no2" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no3" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no4" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no5" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no6" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no7" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no8" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no9" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no10" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no11" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no12" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no13" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no14" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no15" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no16" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no17" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no18" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no19" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no20" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no21" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no22" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no23" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no24" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no25" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no26" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no27" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no28" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no29" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no30" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no31" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no32" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no33" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no34" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no35" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no36" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no37" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no38" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no39" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no40" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no1_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no2_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no3_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no4_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no5_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no6_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no7_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no8_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no9_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no10_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no11_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no12_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no13_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no14_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no15_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no16_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no17_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no18_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no19_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no20_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no21_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no22_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no23_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no24_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no25_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no26_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no27_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no28_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no29_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no30_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no31_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no32_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no33_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no34_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no35_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no36_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no37_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no38_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no39_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="no40_dblchk" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="name1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="name2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

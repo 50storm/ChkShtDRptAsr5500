@@ -1,0 +1,599 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ChkShtDRptAsr5500
+</name>
+</assembly>
+<members>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._RBtnInsert">
+<summary>
+RBtnInsert コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._RBtnUpdate">
+<summary>
+RBtnUpdate コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._RBtnDelete">
+<summary>
+RBtnDelete コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._txtYear">
+<summary>
+txtYear コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._btnSearch">
+<summary>
+btnSearch コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ddListPerson1">
+<summary>
+ddListPerson1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ddListPerson2">
+<summary>
+ddListPerson2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._SheetName01">
+<summary>
+SheetName01 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category01">
+<summary>
+Category01 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content01">
+<summary>
+Content01 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker01">
+<summary>
+ChkBoxMaker01 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker01">
+<summary>
+ChkBoxChecker01 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category02">
+<summary>
+Category02 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content02">
+<summary>
+Content02 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker02">
+<summary>
+ChkBoxMaker02 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker02">
+<summary>
+ChkBoxChecker02 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category03">
+<summary>
+Category03 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content03">
+<summary>
+Content03 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker03">
+<summary>
+ChkBoxMaker03 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker03">
+<summary>
+ChkBoxChecker03 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category04">
+<summary>
+Category04 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content04">
+<summary>
+Content04 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker04">
+<summary>
+ChkBoxMaker04 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker04">
+<summary>
+ChkBoxChecker04 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category05">
+<summary>
+Category05 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content05">
+<summary>
+Content05 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker05">
+<summary>
+ChkBoxMaker05 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker05">
+<summary>
+ChkBoxChecker05 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category06">
+<summary>
+Category06 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content06">
+<summary>
+Content06 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker06">
+<summary>
+ChkBoxMaker06 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker06">
+<summary>
+ChkBoxChecker06 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category07">
+<summary>
+Category07 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content07">
+<summary>
+Content07 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker07">
+<summary>
+ChkBoxMaker07 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker07">
+<summary>
+ChkBoxChecker07 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Category08">
+<summary>
+Category08 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._Content08">
+<summary>
+Content08 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxMaker08">
+<summary>
+ChkBoxMaker08 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ChkBoxChecker08">
+<summary>
+ChkBoxChecker08 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._btnSubmit">
+<summary>
+btnSubmit コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._lblMsg">
+<summary>
+lblMsg コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._MenuRequest">
+<summary>
+MenuRequest コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._MenuPass">
+<summary>
+MenuPass コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._MenuNotPass">
+<summary>
+MenuNotPass コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._lblTo">
+<summary>
+lblTo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._ddListPersonTo">
+<summary>
+ddListPersonTo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._lblFrom">
+<summary>
+lblFrom コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._ddListPersonFrom">
+<summary>
+ddListPersonFrom コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._lblTitle">
+<summary>
+lblTitle コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._txtTitle">
+<summary>
+txtTitle コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._lblBody">
+<summary>
+lblBody コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._txtBody">
+<summary>
+txtBody コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._btnSubmitMail">
+<summary>
+btnSubmitMail コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.MailForm._lblMsg">
+<summary>
+lblMsg コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="T:ChkShtDRptAsr5500.My.MyWebExtension">
+ <summary>
+ Web プロジェクトの My Namespace で使用できるプロパティを定義するためのモジュール。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ChkShtDRptAsr5500.My.MyWebExtension.Computer">
+ <summary>
+ ホスト コンピューターに関する情報を返します。
+ </summary>
+</member>
+<member name="P:ChkShtDRptAsr5500.My.MyWebExtension.User">
+ <summary>
+ 現在の Web ユーザーに関する情報を返します。
+ </summary>
+</member>
+<member name="P:ChkShtDRptAsr5500.My.MyWebExtension.Request">
+ <summary>
+ Request オブジェクトを返します。
+ </summary>
+</member>
+<member name="P:ChkShtDRptAsr5500.My.MyWebExtension.Response">
+ <summary>
+ Response オブジェクトを返します。
+ </summary>
+</member>
+<member name="P:ChkShtDRptAsr5500.My.MyWebExtension.Log">
+ <summary>
+ Asp ログ オブジェクトを返します。
+ </summary>
+</member>
+<member name="F:ChkShtDRptAsr5500.Search._txtDateFrom">
+<summary>
+txtDateFrom コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.Search._txtDateTo">
+<summary>
+txtDateTo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.Search._btnSearch">
+<summary>
+btnSearch コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.Search._lblMsg">
+<summary>
+lblMsg コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.Search._GridView1">
+<summary>
+GridView1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.SiteChkSheet._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.SiteChkSheet._ChkShtDRptAsr5500">
+<summary>
+ChkShtDRptAsr5500 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+</members>
+</doc>

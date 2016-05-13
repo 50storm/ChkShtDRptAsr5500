@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 18.625" name="DataClasses1">
+  <DataContextMoniker Name="/Asr5500ChkSheetDataContext" />
+  <nestedChildShapes>
+    <classShape Id="704aabbb-fbf0-4733-9ab0-0b023476df46" absoluteBounds="4.75, 2, 2, 16.320833740234377">
+      <DataClassMoniker Name="/Asr5500ChkSheetDataContext/asr5500_chksheets" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25e3d1ff-cf67-40ee-bb62-625a967b2dec" absoluteBounds="4.765, 2.46, 1.9700000000000002, 15.760833740234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

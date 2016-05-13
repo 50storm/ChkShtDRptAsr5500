@@ -1,0 +1,42 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SiteChkSheet.master.vb" Inherits="ChkShtDRptAsr5500.SiteChkSheet" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src ="scripts/Utility.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+
+<style>
+table tr td 
+    {
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+    }
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <header>
+    <h1>CheckSheet System</h1>
+    </header>
+    </div>
+    <div>
+       
+        <asp:ContentPlaceHolder ID="ChkShtDRptAsr5500" runat="server"></asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+</body>
+</html>
