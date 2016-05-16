@@ -59,6 +59,15 @@ Partial Public Class ChkShtDRptAsr5500
     Protected WithEvents btnSearch As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
+    '''btnMail コントロール。
+    '''</summary>
+    '''<remarks>
+    '''自動生成されたフィールド。
+    '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+    '''</remarks>
+    Protected WithEvents btnMail As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
     '''ddListPerson1 コントロール。
     '''</summary>
     '''<remarks>

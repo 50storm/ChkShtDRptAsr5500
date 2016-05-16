@@ -1,10 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
-<ASR5500>
-  <Title>
-    <MenuRequestTitle>Daily Report [ASR5500]ダブルチェックのお願い</MenuRequestTitle>
-    <MenuRequestPass>Daily Report [ASR5500]ダブルチェックのお願い</MenuRequestPass>
-    <MenuRequestNotPass>Daily Report [ASR5500]ダブルチェックのお願い</MenuRequestNotPass>
-
-  </Title>
-  
-</ASR5500>
+<Mailettings>
+  <Auth>
+    <Email>
+    pdimars@hnps.co.jp
+    </Email>
+    <Pass>
+      password
+    </Pass>
+  </Auth>
+    
+	<ASR5500>
+		<Title>
+      <Req>
+            Daily Report [ASR5500]ダブルチェックのお願い
+      </Req>
+    
+    </Title>
+		<Title>
+      <Pass>
+        Daily Report [ASR5500]ダブルチェックOKです。
+      </Pass>
+		</Title>
+		<Title>
+      <NotPass>
+        Daily Report [ASR5500]ダブルチェックNGです。 
+      </NotPass>	
+ 	</Title>
+	</ASR5500>
+</Mailettings>

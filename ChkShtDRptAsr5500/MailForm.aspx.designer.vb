@@ -77,40 +77,31 @@ Partial Public Class MailForm
     Protected WithEvents ddListPersonFrom As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''lblTitle コントロール。
+    '''lblMsg コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents lblTitle As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblMsg As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''txtTitle コントロール。
+    '''Label1 コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents txtTitle As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''lblBody コントロール。
+    '''txtMailBody コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents lblBody As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''txtBody コントロール。
-    '''</summary>
-    '''<remarks>
-    '''自動生成されたフィールド。
-    '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
-    '''</remarks>
-    Protected WithEvents txtBody As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtMailBody As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''btnSubmitMail コントロール。
@@ -122,11 +113,11 @@ Partial Public Class MailForm
     Protected WithEvents btnSubmitMail As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''lblMsg コントロール。
+    '''btnToMainSys コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents lblMsg As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents btnToMainSys As Global.System.Web.UI.WebControls.Button
 End Class

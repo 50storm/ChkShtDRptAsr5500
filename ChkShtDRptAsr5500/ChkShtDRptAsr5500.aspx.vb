@@ -279,37 +279,184 @@ Public Class ChkShtDRptAsr5500
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Page.IsPostBack Then
+        Try
 
-        Else
+            If Page.IsPostBack Then
 
-            If Me.Session("searchKey") Is Nothing Then
+            Else
 
-                Dim Dc As New Asr5500ChkSheetDataContext(strConn)
-                'Dim Query = (From x In Dc.asr5500_chksheets Order By x.id Descending).ToArray()
+                If Me.Session("searchKey") Is Nothing Then
 
-                Dim Query = (From x In Dc.asr5500_chksheets
-                             Where x.date = Now
-                             Order By x.id Descending).ToArray()
+                    Dim Dc As New Asr5500ChkSheetDataContext(strConn)
+                    'Dim Query = (From x In Dc.asr5500_chksheets Order By x.id Descending).ToArray()
+
+                    Dim Query = (From x In Dc.asr5500_chksheets
+                                 Where x.date = Now
+                                 Order By x.id Descending).ToArray()
 
 
 
-                If Query.Length = 0 Then
-                    '1件もテーブルにない場合
-                    Me.txtYear.Text = Now.ToString("yyyy/MM/dd")
-                    Me.lblMsg.Text = "まだチェックシートを作成していません。"
-                    Me.RBtnInsert.Checked = True
+                    If Query.Length = 0 Then
+                        '1件もテーブルにない場合
+                        Me.txtYear.Text = Now.ToString("yyyy/MM/dd")
+                        Me.lblMsg.Text = "まだチェックシートを作成していません。"
+                        Me.RBtnInsert.Checked = True
+
+
+
+                    Else
+
+                        Me.lblMsg.Text = "まだチェックシートを作成済です。"
+                        Me.RBtnUpdate.Checked = True
+                        Me.txtYear.Text = Query(0).date.ToString().Substring(0, 10)
+
+
+                        If Query(0).no1 Is Nothing OrElse Query(0).no1 = False Then
+                            Me.ChkBoxMaker01.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker01.Checked = True
+
+                        End If
+
+
+                        If Query(0).no2.ToString() Is Nothing Then
+                            Me.ChkBoxMaker02.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker02.Checked = True
+
+                        End If
+
+                        If Query(0).no3.ToString() Is Nothing Then
+                            Me.ChkBoxMaker03.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker03.Checked = True
+
+                        End If
+
+
+                        If Query(0).no4.ToString() Is Nothing Then
+                            Me.ChkBoxMaker04.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker04.Checked = True
+
+                        End If
+
+
+                        If Query(0).no5.ToString() Is Nothing Then
+                            Me.ChkBoxMaker05.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker05.Checked = True
+
+                        End If
+
+                        If Query(0).no6.ToString() Is Nothing Then
+                            Me.ChkBoxMaker06.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker06.Checked = True
+
+                        End If
+
+                        If String.IsNullOrEmpty(Query(0).no7.ToString()) Then
+                            Me.ChkBoxMaker07.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker07.Checked = True
+
+                        End If
+
+
+                        If String.IsNullOrEmpty(Query(0).no8.ToString()) Then
+                            Me.ChkBoxMaker08.Checked = False
+
+                        Else
+                            Me.ChkBoxMaker08.Checked = True
+
+                        End If
+
+
+
+
+
+                        If String.IsNullOrEmpty(Query(0).no1.ToString()) Then
+                            Me.ChkBoxChecker01.Checked = False
+
+                        Else
+                            Me.ChkBoxChecker01.Checked = True
+
+                        End If
+
+
+                        If Query(0).no2.ToString() Is Nothing Then
+                            Me.ChkBoxChecker02.Checked = False
+
+                        Else
+                            Me.ChkBoxChecker02.Checked = True
+
+                        End If
+
+
+                        If Query(0).no3.ToString() Is Nothing Then
+                            Me.ChkBoxChecker03.Checked = False
+
+                        Else
+                            Me.ChkBoxChecker03.Checked = True
+
+                        End If
+
+                        If Query(0).no4.ToString() Is Nothing Then
+                            Me.ChkBoxChecker04.Checked = False
+
+                        Else
+                            Me.ChkBoxChecker04.Checked = True
+
+                        End If
+
+
+                        If Query(0).no5.ToString() Is Nothing Then
+                            Me.ChkBoxChecker05.Checked = False
+
+                        Else
+                            Me.ChkBoxChecker05.Checked = True
+
+                        End If
+
+                        If Query(0).no6.ToString() Is Nothing Then
+                            Me.ChkBoxChecker06.Checked = False
+
+                        Else
+                            Me.ChkBoxChecker06.Checked = True
+
+                        End If
+
+                        If Query(0).no7.ToString() Is Nothing Then
+                            Me.ChkBoxChecker07.Checked = False
+
+                        Else
+                            Me.ChkBoxChecker07.Checked = True
+
+                        End If
+                    End If
 
 
 
                 Else
 
-                    Me.lblMsg.Text = "まだチェックシートを作成済です。"
-                    Me.RBtnUpdate.Checked = True
+                    Dim Dc As New Asr5500ChkSheetDataContext(strConn)
+                    Dim Query = (From x In Dc.asr5500_chksheets
+                                 Where x.id = CInt(Session("searchKey"))
+                                 Order By x.id Descending).ToArray()
+
                     Me.txtYear.Text = Query(0).date.ToString().Substring(0, 10)
 
 
-                    If Query(0).no1 Is Nothing OrElse Query(0).no1 = False Then
+
+                    If Query(0).no1.ToString() Is Nothing Then
                         Me.ChkBoxMaker01.Checked = False
 
                     Else
@@ -325,6 +472,8 @@ Public Class ChkShtDRptAsr5500
                         Me.ChkBoxMaker02.Checked = True
 
                     End If
+
+
 
                     If Query(0).no3.ToString() Is Nothing Then
                         Me.ChkBoxMaker03.Checked = False
@@ -360,28 +509,14 @@ Public Class ChkShtDRptAsr5500
 
                     End If
 
-                    If String.IsNullOrEmpty(Query(0).no7.ToString()) Then
+                    If Query(0).no7.ToString() Is Nothing Then
                         Me.ChkBoxMaker07.Checked = False
 
                     Else
                         Me.ChkBoxMaker07.Checked = True
 
                     End If
-
-
-                    If String.IsNullOrEmpty(Query(0).no8.ToString()) Then
-                        Me.ChkBoxMaker08.Checked = False
-
-                    Else
-                        Me.ChkBoxMaker08.Checked = True
-
-                    End If
-
-
-
-
-
-                    If String.IsNullOrEmpty(Query(0).no1.ToString()) Then
+                    If Query(0).no1.ToString() Is Nothing Then
                         Me.ChkBoxChecker01.Checked = False
 
                     Else
@@ -399,6 +534,7 @@ Public Class ChkShtDRptAsr5500
                     End If
 
 
+
                     If Query(0).no3.ToString() Is Nothing Then
                         Me.ChkBoxChecker03.Checked = False
 
@@ -406,6 +542,7 @@ Public Class ChkShtDRptAsr5500
                         Me.ChkBoxChecker03.Checked = True
 
                     End If
+
 
                     If Query(0).no4.ToString() Is Nothing Then
                         Me.ChkBoxChecker04.Checked = False
@@ -439,253 +576,110 @@ Public Class ChkShtDRptAsr5500
                         Me.ChkBoxChecker07.Checked = True
 
                     End If
-                End If
 
 
-
-            Else
-
-                Dim Dc As New Asr5500ChkSheetDataContext(strConn)
-                Dim Query = (From x In Dc.asr5500_chksheets
-                             Where x.id = CInt(Session("searchKey"))
-                             Order By x.id Descending).ToArray()
-
-                Me.txtYear.Text = Query(0).date.ToString().Substring(0, 10)
-
-
-
-                If Query(0).no1.ToString() Is Nothing Then
-                    Me.ChkBoxMaker01.Checked = False
-
-                Else
-                    Me.ChkBoxMaker01.Checked = True
 
                 End If
-
-
-                If Query(0).no2.ToString() Is Nothing Then
-                    Me.ChkBoxMaker02.Checked = False
-
-                Else
-                    Me.ChkBoxMaker02.Checked = True
-
-                End If
-
-
-
-                If Query(0).no3.ToString() Is Nothing Then
-                    Me.ChkBoxMaker03.Checked = False
-
-                Else
-                    Me.ChkBoxMaker03.Checked = True
-
-                End If
-
-
-                If Query(0).no4.ToString() Is Nothing Then
-                    Me.ChkBoxMaker04.Checked = False
-
-                Else
-                    Me.ChkBoxMaker04.Checked = True
-
-                End If
-
-
-                If Query(0).no5.ToString() Is Nothing Then
-                    Me.ChkBoxMaker05.Checked = False
-
-                Else
-                    Me.ChkBoxMaker05.Checked = True
-
-                End If
-
-                If Query(0).no6.ToString() Is Nothing Then
-                    Me.ChkBoxMaker06.Checked = False
-
-                Else
-                    Me.ChkBoxMaker06.Checked = True
-
-                End If
-
-                If Query(0).no7.ToString() Is Nothing Then
-                    Me.ChkBoxMaker07.Checked = False
-
-                Else
-                    Me.ChkBoxMaker07.Checked = True
-
-                End If
-                If Query(0).no1.ToString() Is Nothing Then
-                    Me.ChkBoxChecker01.Checked = False
-
-                Else
-                    Me.ChkBoxChecker01.Checked = True
-
-                End If
-
-
-                If Query(0).no2.ToString() Is Nothing Then
-                    Me.ChkBoxChecker02.Checked = False
-
-                Else
-                    Me.ChkBoxChecker02.Checked = True
-
-                End If
-
-
-
-                If Query(0).no3.ToString() Is Nothing Then
-                    Me.ChkBoxChecker03.Checked = False
-
-                Else
-                    Me.ChkBoxChecker03.Checked = True
-
-                End If
-
-
-                If Query(0).no4.ToString() Is Nothing Then
-                    Me.ChkBoxChecker04.Checked = False
-
-                Else
-                    Me.ChkBoxChecker04.Checked = True
-
-                End If
-
-
-                If Query(0).no5.ToString() Is Nothing Then
-                    Me.ChkBoxChecker05.Checked = False
-
-                Else
-                    Me.ChkBoxChecker05.Checked = True
-
-                End If
-
-                If Query(0).no6.ToString() Is Nothing Then
-                    Me.ChkBoxChecker06.Checked = False
-
-                Else
-                    Me.ChkBoxChecker06.Checked = True
-
-                End If
-
-                If Query(0).no7.ToString() Is Nothing Then
-                    Me.ChkBoxChecker07.Checked = False
-
-                Else
-                    Me.ChkBoxChecker07.Checked = True
-
-                End If
-
-
 
             End If
 
-        End If
+        Catch ex As Exception
+            Me.lblMsg.Text = ex.Message
+            Exit Sub
+
+        End Try
 
     End Sub
 
     Protected Sub btnInsert_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
-        'Try
-        '入力値検証
-        If Not Me.RBtnInsert.Checked AndAlso Not Me.RBtnUpdate.Checked And Not Me.RBtnDelete.Checked Then
-            Me.lblMsg.Text = "モードが選択されていません。"
-            Me.RBtnInsert.BackColor = System.Drawing.Color.Yellow
-            Me.RBtnUpdate.BackColor = System.Drawing.Color.Yellow
-            Me.RBtnDelete.BackColor = System.Drawing.Color.Yellow
-            Me.RBtnInsert.Focus()
+        Try
+            '入力値検証
+            If Not Me.RBtnInsert.Checked AndAlso Not Me.RBtnUpdate.Checked And Not Me.RBtnDelete.Checked Then
+                Me.lblMsg.Text = "モードが選択されていません。"
+                Me.RBtnInsert.BackColor = System.Drawing.Color.Yellow
+                Me.RBtnUpdate.BackColor = System.Drawing.Color.Yellow
+                Me.RBtnDelete.BackColor = System.Drawing.Color.Yellow
+                Me.RBtnInsert.Focus()
 
-            Exit Sub
-        Else
-            Me.RBtnInsert.BackColor = System.Drawing.Color.White
-            Me.RBtnUpdate.BackColor = System.Drawing.Color.White
-            Me.RBtnDelete.BackColor = System.Drawing.Color.White
-
-        End If
-
-
-        '必須チェック
-        If Me.txtYear.Text.Trim = "" Then
-            Me.lblMsg.Text = "日付が入力されていません[必須入力]"
-            Exit Sub
-        End If
-
-        '型チェック
-        If Not Utility.IsDateFormat(Me.txtYear.Text) Then
-            Me.lblMsg.Text = "日付は9999/99/99で入力してください。"
-            Exit Sub
-
-        End If
-
-
-        '登録
-        If Me.RBtnInsert.Checked Then
-            If Me.IsRegisterd(Me.txtYear.Text.Trim) Then
-                Me.lblMsg.Text = "すでに作成されています。"
                 Exit Sub
             Else
-                Me.lblMsg.Text = ""
+                Me.RBtnInsert.BackColor = System.Drawing.Color.White
+                Me.RBtnUpdate.BackColor = System.Drawing.Color.White
+                Me.RBtnDelete.BackColor = System.Drawing.Color.White
+
             End If
 
-            Me.InsertData()
-            Me.lblMsg.Text = "チェックシートを作成しました。"
+
+            '必須チェック
+            If Me.txtYear.Text.Trim = "" Then
+                Me.lblMsg.Text = "日付が入力されていません[必須入力]"
+                Exit Sub
+            End If
+
+            '型チェック
+            If Not Utility.IsDateFormat(Me.txtYear.Text) Then
+                Me.lblMsg.Text = "日付は9999/99/99で入力してください。"
+                Exit Sub
+
+            End If
+
+
+            '登録
+            If Me.RBtnInsert.Checked Then
+                If Me.IsRegisterd(Me.txtYear.Text.Trim) Then
+                    Me.lblMsg.Text = "すでに作成されています。"
+                    Exit Sub
+                Else
+                    Me.lblMsg.Text = ""
+                End If
+
+                Me.InsertData()
+                Me.lblMsg.Text = "チェックシートを作成しました。"
+                Exit Sub
+            End If
+
+            '修正
+            If Me.RBtnUpdate.Checked Then
+                UndateData()
+                Exit Sub
+            End If
+
+
+
+            '削除
+            If Me.RBtnDelete.Checked Then
+                DeleteData()
+                Exit Sub
+            End If
+
+
+
+
+        Catch ex As Exception
+            Me.lblMsg.Text = ex.Message
             Exit Sub
-        End If
-
-        '修正
-        If Me.RBtnUpdate.Checked Then
-            UndateData()
-            Exit Sub
-        End If
-
-
-
-        '削除
-        If Me.RBtnDelete.Checked Then
-            DeleteData()
-            Exit Sub
-        End If
-
-
-
-
-        'Catch ex As Exception
-        '    Exit Sub
-        'End Try
+        End Try
     End Sub
 
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
-        Response.Redirect("~/Search.aspx")
+        Try
+            Response.Redirect("~/Search.aspx")
+        Catch ex As Exception
+            Me.lblMsg.Text = ex.Message
+            Exit Sub
+        End Try
 
-        'Using con As New SqlConnection(strConn)
-        '    Using ObjContext As New DataContext(con)
-        '        Dim Asr5500ChkSheet = ObjContext.GetTable(Of asr5500_chksheets)()
-        '        Dim Query = (From x In Asr5500ChkSheet Where x.id = Me.txtYear.Text.Trim()).ToArray()
+    End Sub
 
+    Protected Sub btnMail_Click(sender As Object, e As EventArgs) Handles btnMail.Click
+        Try
+            Response.Redirect("~/MailForm.aspx")
 
-        '        Me.ChkBoxMaker01.Checked = Query(0).no1
-        '        Me.ChkBoxMaker02.Checked = Query(0).no2
-        '        Me.ChkBoxMaker03.Checked = Query(0).no3
-        '        Me.ChkBoxMaker04.Checked = Query(0).no4
-        '        Me.ChkBoxMaker05.Checked = Query(0).no5
-        '        Me.ChkBoxMaker06.Checked = Query(0).no6
-        '        Me.ChkBoxMaker07.Checked = Query(0).no7
-        '        Me.ChkBoxMaker08.Checked = Query(0).no8
-
-        '        Me.ChkBoxChecker01.Checked = Query(0).no1_dblchk
-        '        Me.ChkBoxChecker02.Checked = Query(0).no2_dblchk
-        '        Me.ChkBoxChecker03.Checked = Query(0).no3_dblchk
-        '        Me.ChkBoxChecker04.Checked = Query(0).no4_dblchk
-        '        Me.ChkBoxChecker05.Checked = Query(0).no5_dblchk
-        '        Me.ChkBoxChecker06.Checked = Query(0).no6_dblchk
-        '        Me.ChkBoxChecker07.Checked = Query(0).no7_dblchk
-        '        Me.ChkBoxChecker08.Checked = Query(0).no8_dblchk
-
-        '    End Using
-        'End Using
-
-
-
-
+        Catch ex As Exception
+            Me.lblMsg.Text = ex.Message
+            Exit Sub
+        End Try
 
     End Sub
 End Class

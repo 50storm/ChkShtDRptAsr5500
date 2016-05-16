@@ -51,6 +51,15 @@ btnSearch コントロール。
 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
 </remarks>
 </member>
+<member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._btnMail">
+<summary>
+btnMail コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
 <member name="F:ChkShtDRptAsr5500.ChkShtDRptAsr5500._ddListPerson1">
 <summary>
 ddListPerson1 コントロール。
@@ -447,36 +456,27 @@ ddListPersonFrom コントロール。
 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
 </remarks>
 </member>
-<member name="F:ChkShtDRptAsr5500.MailForm._lblTitle">
+<member name="F:ChkShtDRptAsr5500.MailForm._lblMsg">
 <summary>
-lblTitle コントロール。
+lblMsg コントロール。
 </summary>
 <remarks>
 自動生成されたフィールド。
 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
 </remarks>
 </member>
-<member name="F:ChkShtDRptAsr5500.MailForm._txtTitle">
+<member name="F:ChkShtDRptAsr5500.MailForm._Label1">
 <summary>
-txtTitle コントロール。
+Label1 コントロール。
 </summary>
 <remarks>
 自動生成されたフィールド。
 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
 </remarks>
 </member>
-<member name="F:ChkShtDRptAsr5500.MailForm._lblBody">
+<member name="F:ChkShtDRptAsr5500.MailForm._txtMailBody">
 <summary>
-lblBody コントロール。
-</summary>
-<remarks>
-自動生成されたフィールド。
-変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
-</remarks>
-</member>
-<member name="F:ChkShtDRptAsr5500.MailForm._txtBody">
-<summary>
-txtBody コントロール。
+txtMailBody コントロール。
 </summary>
 <remarks>
 自動生成されたフィールド。
@@ -492,9 +492,9 @@ btnSubmitMail コントロール。
 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
 </remarks>
 </member>
-<member name="F:ChkShtDRptAsr5500.MailForm._lblMsg">
+<member name="F:ChkShtDRptAsr5500.MailForm._btnToMainSys">
 <summary>
-lblMsg コントロール。
+btnToMainSys コントロール。
 </summary>
 <remarks>
 自動生成されたフィールド。
@@ -571,6 +571,15 @@ lblMsg コントロール。
 <member name="F:ChkShtDRptAsr5500.Search._GridView1">
 <summary>
 GridView1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:ChkShtDRptAsr5500.Search._btnToMainSys">
+<summary>
+btnToMainSys コントロール。
 </summary>
 <remarks>
 自動生成されたフィールド。

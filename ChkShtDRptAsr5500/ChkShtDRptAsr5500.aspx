@@ -22,6 +22,7 @@
         <div>
             <asp:TextBox ID="txtYear" runat="server"></asp:TextBox>
             <asp:button runat="server" text="データ検索" ID="btnSearch" />
+            <asp:button runat="server" text="メール送信" ID="btnMail" />
         </div>
     
         <table>

@@ -37,7 +37,6 @@
     </asp:GridView>
     </div>
     <div>
-        <a href="ChkShtDRptAsr5500.aspx" >戻る</a>
-    
-        </div>
+        <asp:Button ID="btnToMainSys" runat="server" Text="戻る" />
+    </div>
 </asp:Content>
